@@ -1,0 +1,7 @@
+{{ with .Params.types }}
+  {{ $category := partial "GetTaxonomy" (dict "slug" . "taxonomy" "types")  }}
+  {{ with $category }}
+    <span class="category" itemprop="articleSection">{{ .Title }}</span>
+  {{ end }}
+{{ end }}
+ 

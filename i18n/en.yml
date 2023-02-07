@@ -1,0 +1,6 @@
+types:
+  all: All types
+  discover: Discover type
+  title:
+    one: Type
+    other: Types
