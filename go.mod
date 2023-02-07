@@ -1,3 +1,3 @@
-module github.com/hugolify/hugolify-theme-projects-tags
+module github.com/hugolify/hugolify-theme-projects-types
 
 go 1.19
