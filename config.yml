@@ -8,3 +8,9 @@ module:
       target: i18n
     - source: layouts
       target: layouts
+
+# Default
+permalinks:
+  types: /projects/:slug/
+taxonomies:
+  type: types
