@@ -1,4 +1,4 @@
-{{ with .Params.types }}
+{{ with .Params.projects_types }}
   {{ $type := partial "GetTaxonomy" (dict "slug" . "taxonomy" "projects_types")  }}
   {{ with $type }}
     <p><a href="{{ .Permalink }}">{{ .Title }}</a></p>

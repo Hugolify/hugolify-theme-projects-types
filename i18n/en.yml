@@ -1,6 +1,6 @@
 projects_types:
-  all: All types
-  discover: Discover type
+  all: All projects types
+  discover: Discover projects type
   title:
     one: Type
     other: Types

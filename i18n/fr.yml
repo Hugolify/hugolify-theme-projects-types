@@ -1,6 +1,6 @@
 projects_types:
-  all: Tous les types
-  discover: Découvrir le type
+  all: Tous les types de projets
+  discover: Découvrir le type de projets
   title:
     one: Type
     other: Types

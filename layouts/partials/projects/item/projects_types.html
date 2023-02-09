@@ -1,4 +1,4 @@
-{{ with .Params.types }}
+{{ with .Params.projects_types }}
   {{ $category := partial "GetTaxonomy" (dict "slug" . "taxonomy" "projects_types")  }}
   {{ with $category }}
     <span class="category" itemprop="articleSection">{{ .Title }}</span>
