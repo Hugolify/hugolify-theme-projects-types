@@ -11,6 +11,6 @@ module:
 
 # Default
 permalinks:
-  types: /projects/:slug/
+  projects_types: /projects/:slug/
 taxonomies:
-  type: types
+  projects_type: projects_types
