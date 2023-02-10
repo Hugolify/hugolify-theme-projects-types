@@ -1,6 +1,5 @@
-{{ with .Params.projects_types }}
-  {{ $category := partial "func/GetTaxonomy" (dict "slug" . "taxonomy" "projects_types")  }}
-  {{ with $category }}
+{{ with .GetTerms "projects_types" }}
+  {{ range . }}
     <span class="category" itemprop="articleSection">{{ .Title }}</span>
   {{ end }}
 {{ end }}
