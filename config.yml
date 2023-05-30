@@ -4,6 +4,8 @@ module:
       target: archetypes
     - source: assets
       target: assets
+    - source: content
+      target: content
     - source: i18n
       target: i18n
     - source: layouts
@@ -11,6 +13,6 @@ module:
 
 # Default
 permalinks:
-  projects_types: /projects/:slug/
+  projects_types: /projects/types/:slug/
 taxonomies:
   projects_type: projects_types
