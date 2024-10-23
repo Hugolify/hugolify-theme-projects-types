@@ -20,4 +20,5 @@ taxonomies:
 params:
   admin:
     collections:
-      projects_types: true
+      projects_types:
+        enable: true
