@@ -13,12 +13,21 @@ module:
 
 # Default
 permalinks:
-  projects_types: /projects/types/:slug/
+  taxonomy:
+    projects_types: /projects/types/
+  term:
+    projects_types: /projects/types/:slug/
 taxonomies:
   projects_type: projects_types
 
+# Admin
 params:
   admin:
     collections:
       projects_types:
         enable: true
+        filter:
+          - field: isIndex
+            value: false
+        icon:
+          sveltiacms: bookmarks
