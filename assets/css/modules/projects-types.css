@@ -1,0 +1,12 @@
+/* css/modules/projects-types.css: hugolify-theme-projects-types entry point */
+
+/* Tokens */
+@import '../tokens/projects-types.css';
+
+/* Components */
+@import '../components/projects-type.css';
+@import '../components/projects-types.css';
+
+/* Pages */
+@import '../pages/projects-type.css';
+@import '../pages/projects-types.css';

@@ -1,0 +1,11 @@
+/* components/projects-type.css */
+/*
+ * Usage: <article class="item projects_type">
+ */
+@layer components {
+  .projects_type {
+    .btn {
+      display: none;
+    }
+  }
+}
